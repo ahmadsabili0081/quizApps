@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+body .container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #eec0c6;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+}
+
+body .container .apps__container {
+  width: 500px;
+  border-radius: 10px;
+  margin: 100px auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+body .container .apps__container button.reload {
+  width: 100%;
+  display: block;
+  padding: 1rem;
+  border: none;
+  margin: 40px 0px;
+  outline: none;
+  background-color: #8ce8f8d9;
+  border-radius: 0px 0px 10px 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+body .container .apps__container h2 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+body .container .apps__container ul {
+  padding: 20px 40px;
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+body .container .apps__container ul li {
+  margin: 10px 0px;
+}
+
+body .container .apps__container ul li label {
+  cursor: pointer;
+}
+
+body .container .apps__container button.submitBtn {
+  display: block;
+  width: 100%;
+  margin: 20px 0px;
+  padding: 1rem;
+  border: none;
+  border-radius: 0px 0px 10px 10px;
+  outline: none;
+  background-color: #8ce8f8d9;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 570px) {
+  body .container {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  body .container .apps__container {
+    width: 100%;
+  }
+  body .container .apps__container h2 {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
